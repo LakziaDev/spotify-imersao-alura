@@ -1,0 +1,95 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    }
+
+/* Define line-height padrão */
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    tab-size: 4;
+}
+
+/* Remove listas padrão */
+ol, ul {
+    list-style: none;
+}
+
+/* Remove aspas padrão em blockquotes e q */
+blockquote, q {
+    quotes: none;
+    }
+    blockquote::before, blockquote::after,
+q::before, q::after {
+    content: '';
+    content: none;
+    }
+
+/* Reset de tabelas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+
+/* Remove sublinhado de links */
+a {
+    text-decoration: none;
+    color: inherit;
+    }
+
+/* Define bordas e caixas consistentes */
+*, *::before, *::after {
+    box-sizing: border-box;
+    }
+
+/* Ajusta o estilo de imagens */
+img, picture {
+    max-width: 100%;
+    display: block;
+    }
+
+/* Remove estilos padrão de botões */
+button, input, select, textarea {
+    font: inherit;
+    margin: 0;
+    border: none;
+    padding: 0;
+    background: none;
+    color: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* Garante que elementos interativos sejam acessíveis */
+    button, [type="button"], [type="submit"], [type="reset"] {
+    cursor: pointer;
+    }
+
+/* Ajusta fontes */
+body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeSpeed;
+    }
+
+
